@@ -1,0 +1,36 @@
+{
+  "encoding":"UTF-8",  
+  "config_type":"dev",
+
+  // Port 정보
+  "port":8899,
+
+  // 로그 설정
+  "log":
+  { 
+    "max_size":1024,
+    "write_file":true,
+    "print_screen":true    
+  },
+
+  // DB
+  "database":
+  [
+    { 
+      "desc":"no.1",
+      "address":"127.0.0.1",
+      "port":4443,
+      "instance":"test_instance1",
+      "id":"sa",
+      "password":"asdf1234$"
+    },
+    { 
+      "desc":"no.2",
+      "address":"127.0.0.1",
+      "port":5443,
+      "instance":"test_instance2",
+      "id":"sa",
+      "password":"asdf1234$"
+    }
+  ]
+}
